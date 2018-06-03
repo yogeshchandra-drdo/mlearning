@@ -3,6 +3,7 @@ from pyspark.ml.feature import HashingTF, IDF, Tokenizer
 # $example off$
 from pyspark.sql import SparkSession
 
+print("Sentiment Analysis")
 if __name__ == "__main__":
     spark = SparkSession\
         .builder\
